@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <section>
     <div class="container">
       <div class="img_box">
         <img src="../assets/img/MasterStudy-1.svg" alt="" />
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-  </header>
+  </section>
 </template>
 <script>
 export default {
@@ -81,7 +81,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../style/common.scss";
-header {
+section {
   position: fixed;
   margin: auto;
   width: 100%;

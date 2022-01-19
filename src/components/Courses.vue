@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section>
     <div class="container">
       <h2>New Courses</h2>
       <div class="cards">
@@ -13,7 +13,7 @@
         <button>LOAD MORE</button>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -96,7 +96,7 @@ export default {
 @import "../style/general.scss";
 @import "../style/common.scss";
 
-main {
+section {
   background-color: #e4e7e7;
 
   .container {

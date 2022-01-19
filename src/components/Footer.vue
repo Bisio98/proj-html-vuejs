@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <section>
     <div class="container">
       <div class="col" v-for="(elements, index) in footerData" :key="index">
         <h5>{{ elements.name }}</h5>
@@ -29,7 +29,7 @@
         </ul>
       </div>
     </div>
-  </footer>
+  </section>
 </template>
 
 <script>
@@ -121,7 +121,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../style/common.scss";
-footer {
+section {
   padding-top: 50px;
   background-color: #f2b71d;
   width: 100%;

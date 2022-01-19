@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section>
     <div class="division container_60">
       <div class="left">
         <h4>
@@ -23,7 +23,7 @@
         >
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -33,7 +33,7 @@ export default {};
 <style lang="scss" scoped>
 @import "../style/common.scss";
 @import "../style/general.scss";
-main {
+section {
   padding-top: 200px;
 
   .division {

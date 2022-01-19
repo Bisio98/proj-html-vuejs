@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section>
     <div class="left">
       <img
         v-if="element.img === 'work'"
@@ -30,7 +30,7 @@
       <h3>{{ element.name }}</h3>
       <span>{{ element.text }}</span>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -45,7 +45,7 @@ export default {
 <style lang="scss" scoped>
 @import "../style/general.scss";
 @import "../style/common.scss";
-main {
+section {
   border: 1px solid #e4e7e7;
   border-left: 4px solid #f2b71d;
   width: 40%;

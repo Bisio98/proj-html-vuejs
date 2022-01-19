@@ -1,5 +1,5 @@
 <template>
-  <main class="container_60">
+  <section class="container_60">
     <div class="title">
       <h3>Why my Courses?</h3>
     </div>
@@ -10,7 +10,7 @@
         :element="cardInfo"
       />
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -53,7 +53,7 @@ export default {
 <style lang="scss" scoped>
 @import "../style/general.scss";
 @import "../style/common.scss";
-main {
+section {
   .title {
     text-align: center;
     margin: 50px 0;

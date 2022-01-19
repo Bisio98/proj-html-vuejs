@@ -1,5 +1,5 @@
 <template>
-  <main class="background">
+  <section class="background">
     <div class="container divide">
       <div class="left">
         <h3>Get My Exclusive Investing Book just for ${{ price }}</h3>
@@ -34,7 +34,7 @@
         alt=""
       />
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -51,7 +51,7 @@ export default {
 <style lang="scss" scoped>
 @import "../style/general.scss";
 @import "../style/common.scss";
-main {
+section {
   background-image: url("../assets/img/slider_1-1917x607-1914x606.jpg");
   background-size: cover;
   background-repeat: no-repeat;

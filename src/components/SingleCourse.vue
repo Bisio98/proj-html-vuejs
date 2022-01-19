@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section>
     <div class="image_box">
       <img class="toHover" v-bind:src="requireImg(element.img)" alt="" />
       <span class="special" v-if="element.special">SPECIAL</span>
@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -62,7 +62,7 @@ export default {
 @import "../style/general.scss";
 @import "../style/common.scss";
 
-main {
+section {
   width: calc(100% / 4);
   border: 1px solid #bcbcbc;
   margin: 20px 30px;

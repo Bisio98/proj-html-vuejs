@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section>
     <div class="jumbo">
       <div class="container_60">
         <div class="container_40">
@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -104,7 +104,7 @@ export default {
 <style lang="scss" scoped>
 @import "../style/general.scss";
 @import "../style/common.scss";
-main {
+section {
   width: 100%;
   padding-top: 150px;
 

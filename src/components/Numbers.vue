@@ -1,5 +1,5 @@
 <template>
-  <main class="background">
+  <section class="background">
     <div class="elements_container container">
       <div
         class="element_container"
@@ -38,7 +38,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -72,7 +72,7 @@ export default {
 <style lang="scss" scoped>
 @import "../style/general.scss";
 @import "../style/common.scss";
-main {
+section {
   background-image: url("../assets/img/counter-1919x1101.jpg");
   color: white;
   background-size: cover;

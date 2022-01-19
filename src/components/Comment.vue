@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section>
     <h3>What Students Say</h3>
     <div class="container_60">
       <div class="change_comment">
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
@@ -132,7 +132,7 @@ export default {
 <style lang="scss" scoped>
 @import "../style/general.scss";
 @import "../style/common.scss";
-main {
+section {
   padding: 50px 0;
   text-align: center;
 
