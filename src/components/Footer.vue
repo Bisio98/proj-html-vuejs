@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <footer>
     <div class="container">
       <div class="col" v-for="(elements, index) in footerData" :key="index">
         <h5>{{ elements.name }}</h5>
@@ -29,7 +29,7 @@
         </ul>
       </div>
     </div>
-  </section>
+  </footer>
 </template>
 
 <script>
@@ -129,7 +129,7 @@ section {
   .container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     .col {
       width: 20%;

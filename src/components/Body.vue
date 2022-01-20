@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <main>
     <Jumbotron />
     <Signature />
     <Courses />
@@ -7,7 +7,7 @@
     <Why />
     <Numbers />
     <Comment />
-  </section>
+  </main>
 </template>
 
 <script>

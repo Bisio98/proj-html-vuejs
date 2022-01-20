@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <header>
     <div class="container">
       <div class="img_box">
         <img src="../assets/img/MasterStudy-1.svg" alt="" />
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </header>
 </template>
 <script>
 export default {
